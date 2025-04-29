@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Code Block Examples in Different Languages"
+title: "Code Block Examples in Different Languages | Himangshu Pan"
 date: 2025-03-31
 categories: coding
 permalink: /blog/code_blocks/

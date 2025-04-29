@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: Himangshu Pan | About
 permalink: /about/
 ---
 

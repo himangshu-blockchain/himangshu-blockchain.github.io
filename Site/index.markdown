@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Himangshu Pan - Portfolio"
+title: "Himangshu Pan"
 ---
 
 # 👨‍💻 Himangshu Pan  

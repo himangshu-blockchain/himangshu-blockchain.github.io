@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 📚🧠📖 My Study & Research 
+title: Himangshu Pan | Study & Research 
 permalink: /blog/
 ---
 
