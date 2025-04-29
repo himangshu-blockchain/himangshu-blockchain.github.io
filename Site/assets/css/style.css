@@ -371,10 +371,7 @@ p {
     overflow-wrap: break-word; /* Force very long words to break */
 }
 
-.post-meta {
-    display: inline-grid;
-    color: aqua;
-  } 
+
 
 }
 
@@ -393,3 +390,8 @@ p {
 strong a {
     color: darkcyan;
 }
+
+.post-meta {
+    display: inline-grid;
+    color: aqua;
+  } 
