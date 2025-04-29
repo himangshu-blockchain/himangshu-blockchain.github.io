@@ -18,10 +18,11 @@ title: "Himangshu Pan - Portfolio"
 ---
 
 ## 📬 Contact Me
-👉 **GitHub:** [https://github.com/himangshu-blockchain](https://github.com/himangshu-blockchain)  
-👉 **LinkedIn:** [https://www.linkedin.com/in/himangshu-blockchain](https://www.linkedin.com/in/himangshu-blockchain/)  
-👉 **Website:** [https://himangshu-blockchain.github.io](https://himangshu-blockchain.github.io)  
-👉 **Email:** [himangshu.blockchain@gmail.com](mailto:himangshu.blockchain@gmail.com)  
+👉 **GitHub   :** [himangshu-blockchain](https://github.com/himangshu-blockchain)
+👉 **LinkedIn :** [himangshu-blockchain](https://www.linkedin.com/in/himangshu-blockchain/)
+👉 **Email    :** [himangshu.blockchain@gmail.com](mailto:himangshu.blockchain@gmail.com)
+👉 **Website  :** [himangshu-blockchain.github.io](https://himangshu-blockchain.github.io)    
+
 ---
 
 ⭐ **Let's build the future of decentralized tech together!** 🚀  
