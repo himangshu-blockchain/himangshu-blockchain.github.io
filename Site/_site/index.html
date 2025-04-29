@@ -82,10 +82,23 @@
             const menuToggle = document.querySelector(".menu-toggle");
             const nav = document.querySelector("nav");
     
-            menuToggle.addEventListener("click", function () {
+            // Toggle nav when clicking the menu button
+            menuToggle.addEventListener("click", function (e) {
+                e.stopPropagation(); // Prevent event from bubbling to document
                 nav.classList.toggle("nav-active");
+            });
+    
+            // Prevent click inside nav from closing it
+            nav.addEventListener("click", function (e) {
+                e.stopPropagation();
+            });
+    
+            // Click anywhere else to close nav
+            document.addEventListener("click", function () {
+                nav.classList.remove("nav-active");
             });
         });
     </script>
+    
 </body>
 </html>
