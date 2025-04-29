@@ -1,7 +1,8 @@
 ---
 layout: blog
-title: Study & Research 
+title: Himangshu Pan | Study & Research 
 permalink: /blog/
 ---
 
+# 🔍 Research & Learning
 Please Check out my **hardwork**.  
