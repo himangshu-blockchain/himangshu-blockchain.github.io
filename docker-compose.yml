@@ -1,0 +1,10 @@
+services:
+  nginx:
+    image: nginx:latest
+    container_name: static_site
+    ports:
+      - "80:80"
+    volumes:
+      - ./Site/_site:/usr/share/nginx/html:ro
+      # - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    restart: always
