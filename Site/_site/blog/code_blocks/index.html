@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Block Examples in Different Languages | Himangshu Pan</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+    <!-- Prism.js for syntax highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-rust.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-solidity.min.js"></script>
+    
+    <!-- Clipboard.js for copy button -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+
+    <script src="/assets/js/copy-code.js"></script>
+    
+
+</head>
+<body>
+    <header>
+        <h1>Himangshu Pan</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/blog">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="social-icons"> 
+            <a href="mailto:himangshu.blockchain@gmail.com" target="_blank" title="Email">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+            </a>
+            <a href="https://github.com/himangshu-blockchain" target="_blank" title="GitHub">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/himangshu-blockchain/" target="_blank" title="LinkedIn">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+            </a>
+        </div>
+        <div class="menu-toggle">☰</div>
+    </header>
+    <main>
+        <p class="post-meta">
+  <strong>Published on:</strong> March 31, 2025       
+  <strong>Author:</strong> Himangshu Pan 
+</p>
+
+<p><h1 id="code-block-examples-in-different-languages">Code Block Examples in Different Languages</h1>
+
+<p>This post showcases code snippets in various programming languages.</p>
+
+<hr />
+
+<h3 id="python-example"><strong>Python Example</strong></h3>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">greet</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s">!</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="nf">greet</span><span class="p">(</span><span class="sh">"</span><span class="s">Himangshu</span><span class="sh">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="javascript-example"><strong>JavaScript Example</strong></h3>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">greet</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="s2">`Hello, </span><span class="p">${</span><span class="nx">name</span><span class="p">}</span><span class="s2">!`</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nf">greet</span><span class="p">(</span><span class="dl">"</span><span class="s2">Himangshu</span><span class="dl">"</span><span class="p">);</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="c-example"><strong>C++ Example</strong></h3>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">void</span> <span class="nf">greet</span><span class="p">(</span><span class="n">string</span> <span class="n">name</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Hello, "</span> <span class="o">&lt;&lt;</span> <span class="n">name</span> <span class="o">&lt;&lt;</span> <span class="s">"!"</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">greet</span><span class="p">(</span><span class="s">"Himangshu"</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="rust-example"><strong>Rust Example</strong></h3>
+<div class="language-rust highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">fn</span> <span class="nf">greet</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="o">&amp;</span><span class="nb">str</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nd">println!</span><span class="p">(</span><span class="s">"Hello, {}!"</span><span class="p">,</span> <span class="n">name</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="k">fn</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nf">greet</span><span class="p">(</span><span class="s">"Himangshu"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="solidity-example"><strong>Solidity Example</strong></h3>
+<pre><code class="language-solidity">// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract Greeter {
+    function greet() public pure returns (string memory) {
+        return "Hello, Himangshu!";
+    }
+}
+</code></pre>
+
+<hr />
+
+<h3 id="go-example"><strong>Go Example</strong></h3>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">main</span>
+<span class="k">import</span> <span class="s">"fmt"</span>
+
+<span class="k">func</span> <span class="n">greet</span><span class="p">(</span><span class="n">name</span> <span class="kt">string</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Hello,"</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">greet</span><span class="p">(</span><span class="s">"Himangshu"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="java-example"><strong>Java Example</strong></h3>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Main</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">greet</span><span class="o">(</span><span class="nc">String</span> <span class="n">name</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Hello, "</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s">"!"</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">greet</span><span class="o">(</span><span class="s">"Himangshu"</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="bash-script-example"><strong>Bash Script Example</strong></h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+greet<span class="o">()</span> <span class="o">{</span>
+    <span class="nb">echo</span> <span class="s2">"Hello, </span><span class="nv">$1</span><span class="s2">!"</span>
+<span class="o">}</span>
+greet <span class="s2">"Himangshu"</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="sql-example"><strong>SQL Example</strong></h3>
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="n">name</span> <span class="k">FROM</span> <span class="n">users</span> <span class="k">WHERE</span> <span class="n">name</span> <span class="o">=</span> <span class="s1">'Himangshu'</span><span class="p">;</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="html--css-example"><strong>HTML + CSS Example</strong></h3>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+        <span class="nt">body</span> <span class="p">{</span> <span class="nl">background</span><span class="p">:</span> <span class="no">black</span><span class="p">;</span> <span class="nl">color</span><span class="p">:</span> <span class="no">lime</span><span class="p">;</span> <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Hello, Himangshu!<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="yaml-example"><strong>YAML Example</strong></h3>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Code</span><span class="nv"> </span><span class="s">Block</span><span class="nv"> </span><span class="s">Examples"</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Himangshu</span><span class="nv"> </span><span class="s">Pan"</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s2">"</span><span class="s">2025-03-31"</span>
+<span class="na">categories</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">coding</span>
+  <span class="pi">-</span> <span class="s">programming</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="json-example"><strong>JSON Example</strong></h3>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Code Block Examples"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"author"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Himangshu Pan"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2025-03-31"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"categories"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"coding"</span><span class="p">,</span><span class="w"> </span><span class="s2">"programming"</span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<hr />
+
+<h3 id="markdown-example"><strong>Markdown Example</strong></h3>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># Hello, World!</span>
+This is a <span class="gs">**Markdown**</span> example.
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="dockerfile-example"><strong>Dockerfile Example</strong></h3>
+<div class="language-dockerfile highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">FROM</span><span class="s"> rust:1.71</span>
+<span class="k">WORKDIR</span><span class="s"> /app</span>
+<span class="k">COPY</span><span class="s"> . .</span>
+<span class="k">RUN </span>cargo build <span class="nt">--release</span>
+<span class="k">CMD</span><span class="s"> ["./target/release/myapp"]</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="makefile-example"><strong>Makefile Example</strong></h3>
+<div class="language-make highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">build</span><span class="o">:</span>
+	cargo build <span class="nt">--release</span>
+
+<span class="nl">run</span><span class="o">:</span>
+	./target/release/myapp
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="powershell-example"><strong>PowerShell Example</strong></h3>
+<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">function</span><span class="w"> </span><span class="nf">Greet</span><span class="p">(</span><span class="nv">$name</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="n">Write-Output</span><span class="w"> </span><span class="s2">"Hello, </span><span class="nv">$name</span><span class="s2">!"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span><span class="n">Greet</span><span class="w"> </span><span class="s2">"Himangshu"</span><span class="w">
+</span></code></pre></div></div>
+
+<hr />
+
+<h2 id="conclusion"><strong>Conclusion</strong></h2>
+<p>This post contains <strong>code blocks for various programming languages</strong>. Jekyll will automatically apply <strong>syntax highlighting</strong>.</p>
+</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Himangshu Pan. All Rights Reserved.</p>
+    </footer>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const nav = document.querySelector("nav");
+    
+            menuToggle.addEventListener("click", function () {
+                nav.classList.toggle("nav-active");
+            });
+        });
+    </script>
+</body>
+</html>
