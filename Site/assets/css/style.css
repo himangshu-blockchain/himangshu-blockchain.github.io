@@ -1,0 +1,372 @@
+/* Hacker-style dark theme */
+html, body {
+    font-family: "Courier New", monospace, Arial, sans-serif;
+    background-color: #0d0d0d;
+    color: #58a6ff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+/* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+} */
+
+
+
+
+
+header {
+    position: fixed; /* 🔥 This keeps the header fixed at top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: black;
+    border-bottom: 2px solid #33ff33;
+    box-shadow: 0px 0px 10px #33ff33;
+    color: #58a6ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px; /* Consistent height */
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #58a6ff;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    color: #33ff33;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    text-shadow: 0px 0px 10px #33ff33;
+}
+
+main {
+    margin: auto;
+    padding: 75px 15px 10px 15px;
+    background: #121212;
+    border: 1px solid #33ff33;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px #33ff33;
+    flex: 1;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: -webkit-fill-available;
+}
+
+
+/* main {
+    flex-grow: 1;
+    width: 80%;
+    max-width: 800px;
+    min-height: 500px; 
+    padding: 20px;
+    background: #121212;
+    border: 1px solid #33ff33;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px #33ff33;
+    margin-top: 20px;
+} */
+
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background: black;
+    border-top: 2px solid #33ff33;
+    box-shadow: 0px 0px 10px #33ff33;
+    /* min-height: 10%; */
+    margin-top: auto;
+}
+
+/* General Code Styling */
+pre {
+    background: #1e1e1e;  /* Dark editor background */
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: "Fira Code", monospace;
+    border: 1px solid #33ff33;
+    box-shadow: 0px 0px 10px rgba(51, 255, 51, 0.5);
+}
+
+/* Style for inline code */
+code {
+    background: #2d2d2d;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 0.95em;
+    color: #ffcc00;
+}
+
+/* Ensures that code inside pre is properly formatted */
+pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    display: block;
+    overflow-x: auto;
+}
+
+pre {
+    max-width: 100%;
+    position: relative;
+    background: #1e1e1e;  /* Dark editor background */
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: "Fira Code", monospace;
+    border: 1px solid #33ff33;
+    box-shadow: 0px 0px 10px rgba(51, 255, 51, 0.5);
+    word-wrap: break-word;
+    white-space: pre-wrap; /* Allow breaking long lines */
+}
+
+/* Copy button */
+pre .copy-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #444;
+    color: #a17f0d;
+    border: none;
+    padding: 5px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+pre .copy-button:hover {
+    opacity: 1;
+}
+
+
+/* Responsive Preformatted Code Blocks */
+
+
+/* Ensure code inside pre doesn't overflow */
+
+
+/* Adjust header and footer */
+
+
+/* Responsive Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto; /* Center images */
+    border-radius: 5px; /* Optional: Adds smooth corners */
+}
+
+/* For Figures with Captions */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #ccc;
+    margin-top: 5px;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+   /* Default nav styling for mobile */
+
+   nav {
+    display: flex;  /* Keep it in the layout */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;  /* Adjust based on your header height */
+    left: 60%;
+    right: 5%;
+    background-color: #333;
+    transform: translateX(100%);  /* Initially hidden */
+    transition: transform 0.6s ease-in-out;
+    padding: 10px;
+    border-radius: 15px;  /* Curved corners */
+    opacity: 0;
+    pointer-events: none; /* Prevent interaction while hidden */
+}
+
+/* When nav is active (menu is open) */
+nav.nav-active {
+    transform: translateX(0%);
+    opacity: 1;
+    pointer-events: auto;  /* Re-enable interaction */
+}
+
+/* Style for navigation links */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column; /* ADD this line to stack vertically */
+    align-items: center;     /* Center items horizontally */
+}
+
+nav ul li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav ul li a {
+    color: rgb(11, 158, 55);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+body {
+    font-size: smaller; /* normal text */
+  }
+
+  h1 {
+    font-size: x-large;
+  }
+
+  h2 {
+    font-size: large;
+  }
+
+  h3 {
+    font-size: small;
+  }
+
+header h1 {
+    font-size: large;
+}
+.social-icons a img {
+    width: 20px; /* Adjust the size of the icons for smaller screens */
+    height: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+pre, code {
+    word-wrap: break-word; /* Break long words */
+    white-space: pre-wrap; /* Allow wrapping inside code */
+    overflow-wrap: break-word; /* Force very long words to break */
+}
+
+pre {
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    max-width: inherit;  /* Do not overflow the screen */
+}
+
+p {
+    display: inline;
+    word-wrap: break-word; /* Break long words */
+    white-space: pre-wrap; /* Allow wrapping inside code */
+    overflow-wrap: break-word; /* Force very long words to break */
+}
+
+}
+
+.blog-list {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0;  /* Optional: remove extra space */
+  }
+  
+  .blog-list li::before {
+    content: "✍️ ";
+    margin-right: 8px;
+  }
