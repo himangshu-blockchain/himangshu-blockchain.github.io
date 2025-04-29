@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Himangshu Pan | Study & Research 
+title: Study & Research 
 permalink: /blog/
 ---
 

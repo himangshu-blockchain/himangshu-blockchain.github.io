@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "Himangshu Pan"
 ---
 
 # 👨‍💻 Himangshu Pan  
