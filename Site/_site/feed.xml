@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-29T14:23:14+05:30</updated><id>/feed.xml</id><title type="html">Himangshu Pan</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Himangshu Pan</name></author><entry><title type="html">Code Block Examples in Different Languages | Himangshu Pan</title><link href="/blog/code_blocks/" rel="alternate" type="text/html" title="Code Block Examples in Different Languages | Himangshu Pan" /><published>2025-03-31T00:00:00+05:30</published><updated>2025-03-31T00:00:00+05:30</updated><id>/blog/welcome-to-jekyll%20copy</id><content type="html" xml:base="/blog/code_blocks/"><![CDATA[<h1 id="code-block-examples-in-different-languages">Code Block Examples in Different Languages</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-29T15:41:20+05:30</updated><id>/feed.xml</id><title type="html">Himangshu Pan</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Himangshu Pan</name></author><entry><title type="html">Code Blocks in Different Languages | Himangshu Pan</title><link href="/blog/code_blocks/" rel="alternate" type="text/html" title="Code Blocks in Different Languages | Himangshu Pan" /><published>2025-03-31T00:00:00+05:30</published><updated>2025-03-31T00:00:00+05:30</updated><id>/blog/welcome-to-jekyll%20copy</id><content type="html" xml:base="/blog/code_blocks/"><![CDATA[<h1 id="code-blocks-in-different-languages">Code Blocks in Different Languages</h1>
 
 <p>This post showcases code snippets in various programming languages.</p>
 
 <hr />
 
-<h3 id="python-example"><strong>Python Example</strong></h3>
+<h3 id="python"><strong>Python</strong></h3>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">greet</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
     <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s">!</span><span class="sh">"</span><span class="p">)</span>
 
@@ -13,7 +13,7 @@
 
 <hr />
 
-<h3 id="javascript-example"><strong>JavaScript Example</strong></h3>
+<h3 id="javascript"><strong>JavaScript</strong></h3>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">greet</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
     <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="s2">`Hello, </span><span class="p">${</span><span class="nx">name</span><span class="p">}</span><span class="s2">!`</span><span class="p">);</span>
 <span class="p">}</span>
@@ -23,7 +23,7 @@
 
 <hr />
 
-<h3 id="c-example"><strong>C++ Example</strong></h3>
+<h3 id="c"><strong>C++</strong></h3>
 <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
 </span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 
@@ -39,7 +39,7 @@
 
 <hr />
 
-<h3 id="rust-example"><strong>Rust Example</strong></h3>
+<h3 id="rust"><strong>Rust</strong></h3>
 <div class="language-rust highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">fn</span> <span class="nf">greet</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="o">&amp;</span><span class="nb">str</span><span class="p">)</span> <span class="p">{</span>
     <span class="nd">println!</span><span class="p">(</span><span class="s">"Hello, {}!"</span><span class="p">,</span> <span class="n">name</span><span class="p">);</span>
 <span class="p">}</span>
@@ -51,7 +51,7 @@
 
 <hr />
 
-<h3 id="solidity-example"><strong>Solidity Example</strong></h3>
+<h3 id="solidity"><strong>Solidity</strong></h3>
 <pre><code class="language-solidity">// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -64,7 +64,7 @@ contract Greeter {
 
 <hr />
 
-<h3 id="go-example"><strong>Go Example</strong></h3>
+<h3 id="go"><strong>Go</strong></h3>
 <div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">main</span>
 <span class="k">import</span> <span class="s">"fmt"</span>
 
@@ -79,7 +79,7 @@ contract Greeter {
 
 <hr />
 
-<h3 id="java-example"><strong>Java Example</strong></h3>
+<h3 id="java"><strong>Java</strong></h3>
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Main</span> <span class="o">{</span>
     <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">greet</span><span class="o">(</span><span class="nc">String</span> <span class="n">name</span><span class="o">)</span> <span class="o">{</span>
         <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Hello, "</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s">"!"</span><span class="o">);</span>
@@ -93,7 +93,7 @@ contract Greeter {
 
 <hr />
 
-<h3 id="bash-script-example"><strong>Bash Script Example</strong></h3>
+<h3 id="bash-script"><strong>Bash Script</strong></h3>
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
 greet<span class="o">()</span> <span class="o">{</span>
     <span class="nb">echo</span> <span class="s2">"Hello, </span><span class="nv">$1</span><span class="s2">!"</span>
@@ -103,13 +103,13 @@ greet <span class="s2">"Himangshu"</span>
 
 <hr />
 
-<h3 id="sql-example"><strong>SQL Example</strong></h3>
+<h3 id="sql"><strong>SQL</strong></h3>
 <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="n">name</span> <span class="k">FROM</span> <span class="n">users</span> <span class="k">WHERE</span> <span class="n">name</span> <span class="o">=</span> <span class="s1">'Himangshu'</span><span class="p">;</span>
 </code></pre></div></div>
 
 <hr />
 
-<h3 id="html--css-example"><strong>HTML + CSS Example</strong></h3>
+<h3 id="html--css"><strong>HTML + CSS</strong></h3>
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;head&gt;</span>
@@ -125,8 +125,8 @@ greet <span class="s2">"Himangshu"</span>
 
 <hr />
 
-<h3 id="yaml-example"><strong>YAML Example</strong></h3>
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Code</span><span class="nv"> </span><span class="s">Block</span><span class="nv"> </span><span class="s">Examples"</span>
+<h3 id="yaml"><strong>YAML</strong></h3>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Code</span><span class="nv"> </span><span class="s">Blocks"</span>
 <span class="na">author</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Himangshu</span><span class="nv"> </span><span class="s">Pan"</span>
 <span class="na">date</span><span class="pi">:</span> <span class="s2">"</span><span class="s">2025-03-31"</span>
 <span class="na">categories</span><span class="pi">:</span>
@@ -136,9 +136,9 @@ greet <span class="s2">"Himangshu"</span>
 
 <hr />
 
-<h3 id="json-example"><strong>JSON Example</strong></h3>
+<h3 id="json"><strong>JSON</strong></h3>
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Code Block Examples"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Code Blocks"</span><span class="p">,</span><span class="w">
   </span><span class="nl">"author"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Himangshu Pan"</span><span class="p">,</span><span class="w">
   </span><span class="nl">"date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2025-03-31"</span><span class="p">,</span><span class="w">
   </span><span class="nl">"categories"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"coding"</span><span class="p">,</span><span class="w"> </span><span class="s2">"programming"</span><span class="p">]</span><span class="w">
@@ -147,14 +147,14 @@ greet <span class="s2">"Himangshu"</span>
 
 <hr />
 
-<h3 id="markdown-example"><strong>Markdown Example</strong></h3>
+<h3 id="markdown"><strong>Markdown</strong></h3>
 <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># Hello, World!</span>
-This is a <span class="gs">**Markdown**</span> example.
+This is a <span class="gs">**Markdown**</span>.
 </code></pre></div></div>
 
 <hr />
 
-<h3 id="dockerfile-example"><strong>Dockerfile Example</strong></h3>
+<h3 id="dockerfile"><strong>Dockerfile</strong></h3>
 <div class="language-dockerfile highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">FROM</span><span class="s"> rust:1.71</span>
 <span class="k">WORKDIR</span><span class="s"> /app</span>
 <span class="k">COPY</span><span class="s"> . .</span>
@@ -164,7 +164,7 @@ This is a <span class="gs">**Markdown**</span> example.
 
 <hr />
 
-<h3 id="makefile-example"><strong>Makefile Example</strong></h3>
+<h3 id="makefile"><strong>Makefile</strong></h3>
 <div class="language-make highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">build</span><span class="o">:</span>
 	cargo build <span class="nt">--release</span>
 
@@ -174,7 +174,7 @@ This is a <span class="gs">**Markdown**</span> example.
 
 <hr />
 
-<h3 id="powershell-example"><strong>PowerShell Example</strong></h3>
+<h3 id="powershell"><strong>PowerShell</strong></h3>
 <div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">function</span><span class="w"> </span><span class="nf">Greet</span><span class="p">(</span><span class="nv">$name</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
     </span><span class="n">Write-Output</span><span class="w"> </span><span class="s2">"Hello, </span><span class="nv">$name</span><span class="s2">!"</span><span class="w">
 </span><span class="p">}</span><span class="w">
@@ -184,5 +184,233 @@ This is a <span class="gs">**Markdown**</span> example.
 
 <hr />
 
+<h3 id="toml"><strong>TOML</strong></h3>
+
+<div class="language-toml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="py">bin</span> <span class="p">=</span> <span class="p">[</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"intro1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/00_intro/intro1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"intro1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/00_intro/intro1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"intro2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/00_intro/intro2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"intro2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/00_intro/intro2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"variables1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/01_variables/variables1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"variables1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/01_variables/variables1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"variables2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/01_variables/variables2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"variables2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/01_variables/variables2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"variables3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/01_variables/variables3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"variables3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/01_variables/variables3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"variables4"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/01_variables/variables4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"variables4_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/01_variables/variables4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"variables5"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/01_variables/variables5.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"variables5_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/01_variables/variables5.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"variables6"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/01_variables/variables6.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"variables6_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/01_variables/variables6.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"functions1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/02_functions/functions1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"functions1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/02_functions/functions1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"functions2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/02_functions/functions2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"functions2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/02_functions/functions2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"functions3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/02_functions/functions3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"functions3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/02_functions/functions3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"functions4"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/02_functions/functions4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"functions4_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/02_functions/functions4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"functions5"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/02_functions/functions5.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"functions5_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/02_functions/functions5.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"if1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/03_if/if1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"if1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/03_if/if1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"if2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/03_if/if2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"if2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/03_if/if2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"if3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/03_if/if3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"if3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/03_if/if3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"quiz1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/quizzes/quiz1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"quiz1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/quizzes/quiz1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"primitive_types1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/04_primitive_types/primitive_types1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"primitive_types1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/04_primitive_types/primitive_types1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"primitive_types2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/04_primitive_types/primitive_types2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"primitive_types2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/04_primitive_types/primitive_types2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"primitive_types3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/04_primitive_types/primitive_types3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"primitive_types3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/04_primitive_types/primitive_types3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"primitive_types4"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/04_primitive_types/primitive_types4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"primitive_types4_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/04_primitive_types/primitive_types4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"primitive_types5"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/04_primitive_types/primitive_types5.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"primitive_types5_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/04_primitive_types/primitive_types5.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"primitive_types6"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/04_primitive_types/primitive_types6.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"primitive_types6_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/04_primitive_types/primitive_types6.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"vecs1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/05_vecs/vecs1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"vecs1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/05_vecs/vecs1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"vecs2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/05_vecs/vecs2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"vecs2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/05_vecs/vecs2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"move_semantics1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/06_move_semantics/move_semantics1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"move_semantics1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/06_move_semantics/move_semantics1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"move_semantics2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/06_move_semantics/move_semantics2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"move_semantics2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/06_move_semantics/move_semantics2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"move_semantics3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/06_move_semantics/move_semantics3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"move_semantics3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/06_move_semantics/move_semantics3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"move_semantics4"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/06_move_semantics/move_semantics4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"move_semantics4_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/06_move_semantics/move_semantics4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"move_semantics5"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/06_move_semantics/move_semantics5.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"move_semantics5_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/06_move_semantics/move_semantics5.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"structs1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/07_structs/structs1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"structs1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/07_structs/structs1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"structs2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/07_structs/structs2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"structs2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/07_structs/structs2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"structs3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/07_structs/structs3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"structs3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/07_structs/structs3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"enums1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/08_enums/enums1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"enums1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/08_enums/enums1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"enums2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/08_enums/enums2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"enums2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/08_enums/enums2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"enums3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/08_enums/enums3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"enums3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/08_enums/enums3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"strings1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/09_strings/strings1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"strings1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/09_strings/strings1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"strings2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/09_strings/strings2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"strings2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/09_strings/strings2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"strings3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/09_strings/strings3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"strings3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/09_strings/strings3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"strings4"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/09_strings/strings4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"strings4_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/09_strings/strings4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"modules1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/10_modules/modules1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"modules1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/10_modules/modules1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"modules2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/10_modules/modules2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"modules2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/10_modules/modules2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"modules3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/10_modules/modules3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"modules3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/10_modules/modules3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"hashmaps1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/11_hashmaps/hashmaps1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"hashmaps1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/11_hashmaps/hashmaps1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"hashmaps2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/11_hashmaps/hashmaps2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"hashmaps2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/11_hashmaps/hashmaps2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"hashmaps3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/11_hashmaps/hashmaps3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"hashmaps3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/11_hashmaps/hashmaps3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"quiz2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/quizzes/quiz2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"quiz2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/quizzes/quiz2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"options1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/12_options/options1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"options1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/12_options/options1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"options2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/12_options/options2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"options2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/12_options/options2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"options3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/12_options/options3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"options3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/12_options/options3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"errors1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/13_error_handling/errors1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"errors1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/13_error_handling/errors1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"errors2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/13_error_handling/errors2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"errors2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/13_error_handling/errors2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"errors3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/13_error_handling/errors3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"errors3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/13_error_handling/errors3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"errors4"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/13_error_handling/errors4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"errors4_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/13_error_handling/errors4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"errors5"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/13_error_handling/errors5.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"errors5_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/13_error_handling/errors5.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"errors6"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/13_error_handling/errors6.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"errors6_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/13_error_handling/errors6.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"generics1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/14_generics/generics1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"generics1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/14_generics/generics1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"generics2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/14_generics/generics2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"generics2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/14_generics/generics2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"traits1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/15_traits/traits1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"traits1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/15_traits/traits1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"traits2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/15_traits/traits2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"traits2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/15_traits/traits2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"traits3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/15_traits/traits3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"traits3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/15_traits/traits3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"traits4"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/15_traits/traits4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"traits4_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/15_traits/traits4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"traits5"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/15_traits/traits5.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"traits5_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/15_traits/traits5.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"quiz3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/quizzes/quiz3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"quiz3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/quizzes/quiz3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"lifetimes1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/16_lifetimes/lifetimes1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"lifetimes1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/16_lifetimes/lifetimes1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"lifetimes2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/16_lifetimes/lifetimes2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"lifetimes2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/16_lifetimes/lifetimes2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"lifetimes3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/16_lifetimes/lifetimes3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"lifetimes3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/16_lifetimes/lifetimes3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"tests1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/17_tests/tests1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"tests1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/17_tests/tests1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"tests2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/17_tests/tests2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"tests2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/17_tests/tests2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"tests3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/17_tests/tests3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"tests3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/17_tests/tests3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"iterators1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/18_iterators/iterators1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"iterators1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/18_iterators/iterators1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"iterators2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/18_iterators/iterators2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"iterators2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/18_iterators/iterators2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"iterators3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/18_iterators/iterators3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"iterators3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/18_iterators/iterators3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"iterators4"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/18_iterators/iterators4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"iterators4_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/18_iterators/iterators4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"iterators5"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/18_iterators/iterators5.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"iterators5_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/18_iterators/iterators5.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"box1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/19_smart_pointers/box1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"box1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/19_smart_pointers/box1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"rc1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/19_smart_pointers/rc1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"rc1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/19_smart_pointers/rc1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"arc1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/19_smart_pointers/arc1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"arc1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/19_smart_pointers/arc1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"cow1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/19_smart_pointers/cow1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"cow1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/19_smart_pointers/cow1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"threads1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/20_threads/threads1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"threads1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/20_threads/threads1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"threads2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/20_threads/threads2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"threads2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/20_threads/threads2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"threads3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/20_threads/threads3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"threads3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/20_threads/threads3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"macros1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/21_macros/macros1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"macros1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/21_macros/macros1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"macros2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/21_macros/macros2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"macros2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/21_macros/macros2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"macros3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/21_macros/macros3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"macros3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/21_macros/macros3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"macros4"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/21_macros/macros4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"macros4_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/21_macros/macros4.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"clippy1"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/22_clippy/clippy1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"clippy1_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/22_clippy/clippy1.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"clippy2"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/22_clippy/clippy2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"clippy2_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/22_clippy/clippy2.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"clippy3"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/22_clippy/clippy3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"clippy3_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/22_clippy/clippy3.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"using_as"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/23_conversions/using_as.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"using_as_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/23_conversions/using_as.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"from_into"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/23_conversions/from_into.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"from_into_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/23_conversions/from_into.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"from_str"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/23_conversions/from_str.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"from_str_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/23_conversions/from_str.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"try_from_into"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/23_conversions/try_from_into.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"try_from_into_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/23_conversions/try_from_into.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"as_ref_mut"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"exercises/23_conversions/as_ref_mut.rs"</span> <span class="err">}</span><span class="p">,</span>
+  <span class="err">{</span> <span class="py">name</span> <span class="p">=</span> <span class="s">"as_ref_mut_sol"</span><span class="p">,</span> <span class="py">path</span> <span class="p">=</span> <span class="s">"solutions/23_conversions/as_ref_mut.rs"</span> <span class="err">}</span><span class="p">,</span>
+<span class="p">]</span>
+
+<span class="nn">[package]</span>
+<span class="py">name</span> <span class="p">=</span> <span class="s">"exercises"</span>
+<span class="py">edition</span> <span class="p">=</span> <span class="s">"2021"</span>
+<span class="c"># Don't publish the exercises on crates.io!</span>
+<span class="py">publish</span> <span class="p">=</span> <span class="kc">false</span>
+
+<span class="nn">[profile.release]</span>
+<span class="py">panic</span> <span class="p">=</span> <span class="s">"abort"</span>
+
+<span class="nn">[profile.dev]</span>
+<span class="py">panic</span> <span class="p">=</span> <span class="s">"abort"</span>
+
+<span class="nn">[lints.rust]</span>
+<span class="c"># You shouldn't write unsafe code in Rustlings!</span>
+<span class="py">unsafe_code</span> <span class="p">=</span> <span class="s">"forbid"</span>
+<span class="c"># You don't need unstable features in Rustlings and shouldn't rely on them while learning Rust.</span>
+<span class="py">unstable_features</span> <span class="p">=</span> <span class="s">"forbid"</span>
+<span class="c"># Dead code warnings can't be avoided in some exercises and might distract while learning.</span>
+<span class="py">dead_code</span> <span class="p">=</span> <span class="s">"allow"</span>
+
+<span class="nn">[lints.clippy]</span>
+<span class="c"># You forgot a `todo!()`!</span>
+<span class="py">todo</span> <span class="p">=</span> <span class="s">"forbid"</span>
+<span class="c"># This can only happen by mistake in Rustlings.</span>
+<span class="py">empty_loop</span> <span class="p">=</span> <span class="s">"forbid"</span>
+<span class="c"># No infinite loops are needed in Rustlings.</span>
+<span class="py">infinite_loop</span> <span class="p">=</span> <span class="s">"deny"</span>
+<span class="c"># You shouldn't leak memory while still learning Rust!</span>
+<span class="py">mem_forget</span> <span class="p">=</span> <span class="s">"deny"</span>
+<span class="c"># Currently, there are no disallowed methods. This line avoids problems when developing Rustlings.</span>
+<span class="py">disallowed_methods</span> <span class="p">=</span> <span class="s">"allow"</span>
+</code></pre></div></div>
+
+<hr />
+
 <h2 id="conclusion"><strong>Conclusion</strong></h2>
-<p>This post contains <strong>code blocks for various programming languages</strong>. Jekyll will automatically apply <strong>syntax highlighting</strong>.</p>]]></content><author><name>Himangshu Pan</name></author><category term="coding" /><summary type="html"><![CDATA[Code Block Examples in Different Languages]]></summary></entry></feed>
+<p>This post contains <strong>code blocks for various programming languages</strong>. Jekyll will automatically apply <strong>syntax highlighting</strong>.</p>]]></content><author><name>Himangshu Pan</name></author><category term="coding" /><summary type="html"><![CDATA[Code Blocks in Different Languages]]></summary></entry></feed>
