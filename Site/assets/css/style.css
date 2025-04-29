@@ -86,7 +86,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #58a6ff;
 }
 
-
+a {
+    color: aqua;
+}
 
 nav ul {
     list-style: none;
@@ -366,7 +368,13 @@ p {
     padding-left: 0;  /* Optional: remove extra space */
   }
   
-  .blog-list li::before {
+.blog-list li::before {
     content: "✍️ ";
     margin-right: 8px;
   }
+.blog-list li a {
+    color: greenyellow;
+}
+strong a {
+    color: darkcyan;
+}
