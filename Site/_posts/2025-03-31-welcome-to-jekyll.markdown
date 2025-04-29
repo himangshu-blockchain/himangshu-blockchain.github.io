@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Code Blocks in Different Languages | Himangshu Pan"
-date: 2025-03-31
+title: "Code Blocks in Different Languages"
+date: 2025-04-29
 categories: coding
 permalink: /blog/code_blocks/
 ---
@@ -13,6 +13,7 @@ This post showcases code snippets in various programming languages.
 ---
 
 ### **Python**
+
 ```python
 def greet(name):
     print(f"Hello, {name}!")
@@ -23,9 +24,10 @@ greet("Himangshu")
 ---
 
 ### **JavaScript**
+
 ```javascript
 function greet(name) {
-    console.log(`Hello, ${name}!`);
+  console.log(`Hello, ${name}!`);
 }
 
 greet("Himangshu");
@@ -34,6 +36,7 @@ greet("Himangshu");
 ---
 
 ### **C++**
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -51,6 +54,7 @@ int main() {
 ---
 
 ### **Rust**
+
 ```rust
 fn greet(name: &str) {
     println!("Hello, {}!", name);
@@ -64,6 +68,7 @@ fn main() {
 ---
 
 ### **Solidity**
+
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -78,6 +83,7 @@ contract Greeter {
 ---
 
 ### **Go**
+
 ```go
 package main
 import "fmt"
@@ -94,6 +100,7 @@ func main() {
 ---
 
 ### **Java**
+
 ```java
 public class Main {
     public static void greet(String name) {
@@ -109,6 +116,7 @@ public class Main {
 ---
 
 ### **Bash Script**
+
 ```bash
 #!/bin/bash
 greet() {
@@ -120,6 +128,7 @@ greet "Himangshu"
 ---
 
 ### **SQL**
+
 ```sql
 SELECT name FROM users WHERE name = 'Himangshu';
 ```
@@ -127,23 +136,28 @@ SELECT name FROM users WHERE name = 'Himangshu';
 ---
 
 ### **HTML + CSS**
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <style>
-        body { background: black; color: lime; }
+      body {
+        background: black;
+        color: lime;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Hello, Himangshu!</h1>
-</body>
+  </body>
 </html>
 ```
 
 ---
 
 ### **YAML**
+
 ```yaml
 title: "Code Blocks"
 author: "Himangshu Pan"
@@ -156,6 +170,7 @@ categories:
 ---
 
 ### **JSON**
+
 ```json
 {
   "title": "Code Blocks",
@@ -168,14 +183,17 @@ categories:
 ---
 
 ### **Markdown**
+
 ```md
 # Hello, World!
+
 This is a **Markdown**.
 ```
 
 ---
 
 ### **Dockerfile**
+
 ```dockerfile
 FROM rust:1.71
 WORKDIR /app
@@ -187,6 +205,7 @@ CMD ["./target/release/myapp"]
 ---
 
 ### **Docker-Compose**
+
 ```yml
 services:
   nginx:
@@ -203,6 +222,7 @@ services:
 ---
 
 ### **Makefile**
+
 ```make
 build:
 	cargo build --release
@@ -214,6 +234,7 @@ run:
 ---
 
 ### **PowerShell**
+
 ```powershell
 function Greet($name) {
     Write-Output "Hello, $name!"
@@ -453,6 +474,6 @@ disallowed_methods = "allow"
 
 ---
 
-
 ## **Conclusion**
+
 This post contains **code blocks for various programming languages**. Jekyll will automatically apply **syntax highlighting**.
