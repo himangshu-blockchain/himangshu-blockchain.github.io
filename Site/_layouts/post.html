@@ -2,9 +2,11 @@
 layout: default
 title: Post
 ---
+
 <p class="post-meta">
-  <strong>Published on:</strong> {{ page.date | date: "%B %d, %Y" }}       
-  <strong>Author:</strong> {{ site.author }} 
+  <span class="date">📅 <strong>Published on:</strong> {{ page.date | date: "%B %d, %Y" }}</span>
+  <span class="author">✍️ <strong>Author:</strong> {{ site.author }}</span>
 </p>
+
 
 <p>{{ content }}</p>

@@ -38,7 +38,17 @@ html, body {
 
 
 
-
+  
+  /* .post-meta span {
+    display: block;
+    margin-top: 0.3rem;
+  }
+  
+  .post-meta strong {
+    margin-right: 0.3rem;
+    color: #444;
+  } */
+  
 
 
 
@@ -357,9 +367,14 @@ pre {
 p {
     display: inline;
     word-wrap: break-word; /* Break long words */
-    white-space: pre-wrap; /* Allow wrapping inside code */
+    /* white-space: pre-wrap; Allow wrapping inside code */
     overflow-wrap: break-word; /* Force very long words to break */
 }
+
+.post-meta {
+    display: inline-grid;
+    color: aqua;
+  } 
 
 }
 
