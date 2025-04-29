@@ -43,6 +43,7 @@ html, body {
 
 
 
+  
 
 
 
@@ -359,3 +360,13 @@ p {
 }
 
 }
+
+.blog-list {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0;  /* Optional: remove extra space */
+  }
+  
+  .blog-list li::before {
+    content: "✍️ ";
+    margin-right: 8px;
+  }
