@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Himangshu Pan | Study & Research
-permalink: /blog/
+title: 🦀Rustacean Himangshu! | Study & Research
+permalink: /blogs/
 ---
 
 # 🔍 Research & Learning

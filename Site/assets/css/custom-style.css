@@ -258,19 +258,19 @@ figcaption {
   }
 
   body {
-    font-size: smaller; /* normal text */
+    font-size: small; /* normal text */
   }
 
   h1 {
-    font-size: x-large;
-  }
-
-  h2 {
     font-size: large;
   }
 
+  h2 {
+    font-size: medium;
+  }
+
   h3 {
-    font-size: small;
+    font-size: smaller;
   }
 
   header h1 {

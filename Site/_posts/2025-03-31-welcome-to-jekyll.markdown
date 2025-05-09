@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Code Blocks in Different Languages"
+title: "🦀Rustacean Himangshu! | Code Blocks in Different Languages"
 date: 2025-04-29
 categories: coding
 permalink: /blog/code_blocks/
