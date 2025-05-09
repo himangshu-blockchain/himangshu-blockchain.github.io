@@ -280,6 +280,7 @@ figcaption {
 
   header h1 {
     font-size: large;
+    text-align: -webkit-left;
   }
   .social-icons a img {
     width: 20px; /* Adjust the size of the icons for smaller screens */
