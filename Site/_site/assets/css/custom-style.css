@@ -96,7 +96,8 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  max-width: -webkit-fill-available;
+  width: 80%;
+  /* max-width: -webkit-fill-available; */
 }
 
 footer {
@@ -205,6 +206,10 @@ figcaption {
 }
 
 @media (max-width: 768px) {
+  main {
+    width: 90%;
+    /* max-width: -webkit-fill-available; */
+  }
   .menu-toggle {
     display: block;
   }
